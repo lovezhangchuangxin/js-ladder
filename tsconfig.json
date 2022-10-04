@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "ES2015",
+        "target": "ES2015",
+        "strict": true,
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "jsx": "react",
+        "noImplicitAny": false
+    },
+    "lib": [
+        "es6",
+        "dom"
+    ],
+    "include": [
+        "src",
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
